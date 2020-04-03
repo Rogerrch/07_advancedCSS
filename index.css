@@ -1,0 +1,244 @@
+/* style guide 
+Colors
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
+-Dropshadow- #F5E7DC75
+-Active state- #FAA16F
+-hyperlink- blue
+-Font family- 'Source Sans Pro' 
+*/
+
+/* css reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
+}
+
+.hLink {
+  color: blue;
+}
+/*Header elements*/
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  border-bottom: 3px solid #3b0273;
+}
+
+/* Nav elements */
+#navbar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #64428c;
+  font-family: "Verdana";
+}
+.mynav {
+  display: flex;
+  list-style-type: none;
+  font-family: "Verdana";
+}
+
+.mynav a {
+  color: #f5e7dc;
+  font-weight: 500;
+  padding: 15px 1.3rem;
+  text-decoration: none;
+}
+.active a {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #aa8abd;
+  transition: 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #3b0273;
+  transition: color, 0.4s;
+}
+blockquote {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 100;
+  color: #3b0273;
+}
+
+main {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+}
+
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+
+/* Images style*/
+.levantLogo {
+  font-size: 120%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  text-align: center;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+.levantLogo img {
+  width: 100%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+.logoCap {
+  font-size: 90%;
+  padding-right: 10%;
+}
+
+figure.bedMold {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  float: right;
+  max-width: 30%;
+  padding: 0% 3%;
+}
+
+figure.bedMold img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  border: solid 3px #64428c; 
+  
+}
+
+.bedMoldText {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 120%;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 30px 30px;
+  background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
+  border: solid 3px #64428c; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+  
+}
+
+.diagrams {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0px 20px 0px;
+}
+
+.example {
+  max-width: 500px;
+  min-width: 200px;
+  transition: ease-in 0.4s;
+}
+
+.example img {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+}
+
+.materialChar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 130%;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  bottom: 2rem;
+  height: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #a182ab; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+  font-variant: small-caps;
+  
+}
+
+.physChar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 130%;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  bottom: 2rem;
+  height: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #a182ab; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+  font-variant: small-caps;
+}
+
+/* End of Images style*/
+
+blockquote {
+  color: rgb(250, 250, 250);
+  font-style: italic;
+  padding: 10px;
+  background-color: #aa8abd;
+  border-radius: 20px;
+  border: solid 3px #64428c;
+}
+
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
+}
+
+footer {
+  background-color: #f5e7dc;
+  border-top: 3px solid #aa8abd;
+}
+h2 {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: 100;
+  padding-top: 20px;
+  background-color: #f5e7dc;
+  color: #64428c;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 10pt;
+  font-weight: 100;
+  background-color: #64428c;
+  color: #f5e7dc;
+  border-top: solid 3px #aa8abd;
+}
+p {
+  margin: 2rem;
+}

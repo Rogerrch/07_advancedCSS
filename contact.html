@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavant order form</title>
+    <link href="order.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <!--Start of the header-->
+    <header>
+        <h1>
+            Levant
+        </h1>
+        <h2>Order form</h2>
+    <!--Start of the navigation-->
+    <nav>
+        <ul class="mynav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li class="active"><a href="contact"></a></li>
+          <li><a>&nbsp;</a></li>
+        </ul>
+      </nav>
+      <div class="keepOpen"></div>
+      <!--Start of main content-->
+<main>
+    <h1>contact page</h1>
+    <!--Add content-->
+    <h2>Order Levant</h2>
+    <form action="FormtoEmail.php" method="post" enctype="multipart/form-data" name="product">
+    
+        <fieldset>
+            <legend>User Information</legend>
+            <label><span>Name: </span><input type="text" name="full_name" 
+                class="userinformation" required placeholder="Full Name"/></label><br />
+            <label><span>Address: </span><input type="text" name="address" 
+                class="userinformation" required /></label><br />
+            <label><span>Email: </span><input type="text" name="email" placeholder="email@gmail.com" 
+                class="userinformation" required /></label><br />
+            <label><span>Phone: </span><input type="text" placeholder="888-888-8888" name="phone" 
+                class="userinformation" pattern=" [0-9-. ]" />
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>family information</legend>
+            <label><span>Family Name: </span><input 
+            type="text" class="familyinformation" 
+            name="family_name">
+            </label><br />
+        </label><span>URL for family: </span> <input 
+        type="url" class="familyinformation" 
+        name="family_url" placeholder="http//americanZephyr.net"> 
+        </label>
+        </fieldset>
+
+        <feildset>
+            <legend>Reunion Information</legend>
+            <label><span>Would you like to recive updates telling you more about our exciting products?  </span><input 
+            type="text" class="familyinformation" 
+            name="family_name">
+            </label><br />
+        </feildset>
+
+    <label>Credit card Informatio: </label>
+    <select name="creditcard" class="familyinformation">
+        <option value=""></option>
+    </select>
+</main>
+<!--Start of the footer-->
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,252 @@
+/* style guide 
+Colors
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
+-Dropshadow- #F5E7DC75
+-Active state- #FAA16F
+-hyperlink- blue
+-Font family- 'Source Sans Pro' 
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
+}
+
+/*Header elements*/
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  border-bottom: 3px solid #3b0273;
+}
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+
+figure {
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
+}
+
+.levantLogo {
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  text-align: center;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+.levantLogo img {
+  width: 100%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+.logoCap {
+  font-size: 90%;
+  padding-right: 10%;
+}
+
+/* Nav elements */
+#navbar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #64428c;
+  font-family: "Verdana";
+}
+.mynav {
+  display: flex;
+  list-style-type: none;
+  font-family: "Verdana";
+}
+
+.mynav a {
+  color: #f5e7dc;
+  font-weight: 500;
+  padding: 15px 1.3rem;
+  text-decoration: none;
+}
+.active a {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #aa8abd;
+  transition: 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #3b0273;
+  transition: color, 0.4s;
+}
+
+/*feildset elements*/
+form.userInfo fieldset {
+  color: #3b0273;
+  border: 2px solid #3b0273;
+  border-radius: 0.5rem 2rem 2rem 2rem;
+  padding: 1rem 2rem;
+  margin: 2%;
+  background-image: linear-gradient(20deg, #64428c 0%, #f5e7dc 85%);
+  font-family: "Verdana";
+  font-weight: bold;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+
+form.userInfo legend {
+  font-family: "Verdana";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f5e7dc;
+  background-color: #3b0273;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border: solid 2px #ebae8b;
+}
+
+form.userInfo label {
+  display: block;
+}
+
+form.userInfo span {
+  display: block;
+}
+
+#state {
+  margin-bottom: 0.5rem;
+  background-color: #f5e7dc;
+  width: 21.2%;
+  min-width: 196px;
+  color: #3b0273;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+form.userInfo .feild {
+  margin-bottom: 0.5rem;
+  background-color: #f5e7dc;
+  width: 20%;
+  min-width: 180px;
+  color: #3b0273;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px #aa8abd;
+}
+
+form.userInfo .feildCount {
+  margin-bottom: 0.5rem;
+  max-width: 2rem;
+  background-color: #f5e7dc;
+  color: #3b0273;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+h4 {
+  padding-left: 6%;
+  font-family: "Verdana";
+  font-size: 0.5em;
+}
+
+textarea.verbose1 {
+  /* all: unset; */
+  color: #3b0273;
+  width: 20%;
+  min-width: 180px;
+  height: 30px;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding: 0.05rem 0.8rem;
+  background-color: #f5e7db;
+}
+
+textarea.verbose2 {
+  /* all: unset; */
+  color: #3b0273;
+  width: 20%;
+  min-width: 180px;
+  height: 120px;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding: 0.05rem 0.8rem;
+  background-color: #f5e7db;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f5e7dc;
+  border-top: 3px solid #aa8abd;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 10pt;
+  font-weight: 100;
+  background-color: #64428c;
+  color: #f5e7dc;
+  border-top: solid 3px #aa8abd;
+}
+figure {
+  text-align: center;
+}
+.footLogoStyle {
+  max-width: 300px;
+  padding-top: 20px;
+}
+.tagLine {
+  font-size: 0.6rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+
+/* Send Button */
+.sendButton {
+  margin: 0.8rem;
+  background-color: #3b0273;
+  width: 20%;
+  min-width: 180px;
+  color: #f5e7dc;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px #aa8abd;
+  font-family: "Verdana";
+  font-weight: bold;
+}
+
+.sendButton:hover {
+  background-color: #aa8abd;
+  color: #3b0273;
+  border: solid 2px #3b0273;
+}
+
+.sendButton:active {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}

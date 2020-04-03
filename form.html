@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link  rel="stylesheet" href="form.css" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+    rel="stylesheet"
+  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    
+  </head>
+  <body>
+    <!--Start of header-->
+    <header>
+      <figure class="levantLogo">
+        <img
+          src="http://dmg2120.americanzephyr.net/images/Levant_sm.png"
+          alt="Levant Logo"
+        />
+        <figcaption class="logoCap">
+          <i><b>Rest Assured, on this Healthy Foundation</b></i>
+        </figcaption>
+      </figure>
+    </header>
+
+     <!--Start of navigation-->
+     <nav id="navbar">
+      <ul class="mynav">
+        <li>
+          <a href="store.html">Store</a>
+        </li>   
+          <li>
+            <a href="index.html">Home</a>
+          </li> 
+          <li>
+            <a href="support.html">Support</a>
+          </li>
+          <li class="active">
+            <a href="form.html">Register</a>
+          </li>   
+      </ul>
+      <div class="keepOpen"></div>
+  </nav>
+    <!--Start of main content-->
+    <main>
+      <!--Feilds-->
+      <h1>Register Product</h1>
+      <form
+        class="userInfo"
+        action="EmailForm.php"
+        method="POST"
+        enctype="multipart/form-data"
+        name="levantForm"
+      >
+        <!--Feild set1 user name-->
+        <fieldset>
+          <legend>Your Name</legend>
+          <label>
+            <span> First name: </span>
+            <input
+              class="feild"
+              name="first"
+              value=""
+              type="text"
+              placeholder="John"
+              required
+          /></label>
+
+          <label>
+            <span class="spanLower"> Last name: </span>
+            <input
+              class="feild"
+              name="last"
+              value=""
+              type="text"
+              placeholder="Smith"
+              required
+          /></label>
+        </fieldset>
+        <!--Feild set1 user contact info-->
+        <fieldset>
+          <legend>Contact Information</legend>
+          
+          <label>
+            <span>E-mail</span>
+            <input class="feild" type="email" name="email" value="" required
+          /></label>
+
+          <label>
+            <span class="spanLower">Phone:</span>
+            <input
+              class="feild"
+              type="tel"
+              name="telephone"
+              value=""
+              placeholder="888-888-8888"
+              required
+          /></label>
+          <label>
+            <span class="spanLower">Address:</span>
+            <input class="feild" type="text" name="address" value="" required
+          /></label>
+       
+          <label>
+            <span class="spanLower">City:</span>
+            <input class="feild" type="text" name="city" value=""
+          /></label>
+          <label> <span class="spanLower">State/District/Teritory:</span>
+          <select id="state" name="state"
+            ><option value="---">---</option
+            ><option value="AL">Alabama</option
+            ><option value="AK">Alaska</option
+            ><option value="AZ">Arizona</option
+            ><option value="AR">Arkansas</option
+            ><option value="CA">California</option
+            ><option value="CO">Colorado</option
+            ><option value="CT">Connecticut</option
+            ><option value="DE">Delaware</option
+            ><option value="DC">District of Columbia</option
+            ><option value="FL">Florida</option
+            ><option value="GA">Georgia</option
+            ><option value="GU">Guam</option
+            ><option value="HI">Hawaii</option
+            ><option value="ID">Idaho</option
+            ><option value="IL">Illinois</option
+            ><option value="IN">Indiana</option
+            ><option value="IA">Iowa</option
+            ><option value="KS">Kansas</option
+            ><option value="KY">Kentucky</option
+            ><option value="LA">Louisiana</option
+            ><option value="ME">Maine</option
+            ><option value="MD">Maryland</option
+            ><option value="MA">Massachusetts</option
+            ><option value="MI">Michigan</option
+              ><option value="FM">Micronesia</option
+            ><option value="MN">Minnesota</option
+            ><option value="MS">Mississippi</option
+            ><option value="MO">Missouri</option
+            ><option value="MT">Montana</option
+            ><option value="NE">Nebraska</option
+            ><option value="NV">Nevada</option
+            ><option value="NH">New Hampshire</option
+            ><option value="NJ">New Jersey</option
+            ><option value="NM">New Mexico</option
+            ><option value="NY">New York</option
+            ><option value="NC">North Carolina</option
+            ><option value="ND">North Dakota</option
+            ><option value="MP">Northern Marianas Islands</option
+            ><option value="OH">Ohio</option
+            ><option value="OK">Oklahoma</option
+            ><option value="OR">Oregon</option
+              ><option value="PW">Palau</option
+            ><option value="PA">Pennsylvania</option
+            ><option value="PR">Puerto Rico</option
+            ><option value="RI">Rhode Island</option
+            ><option value="SC">South Carolina</option
+            ><option value="SD">South Dakota</option
+            ><option value="TN">Tennessee</option
+            ><option value="TX">Texas</option
+            ><option value="UT">Utah</option
+            ><option value="VT">Vermont</option
+            ><option value="VA">Virginia</option
+            ><option value="VI">Virgin Islands</option
+            ><option value="WA">Washington</option
+            ><option value="WV">West Virginia</option
+            ><option value="WI">Wisconsin</option
+            ><option value="WY">Wyoming</option></select
+          >
+        </label>
+
+          <label>
+            <span>Postal Code: </span
+            ><input
+              class="feild"
+              type="text"
+              name="name"
+              value="00000"
+              pattern="[0-9]{5}"
+              maxLength="5"   
+              >
+          </label>
+        
+        </fieldset>
+
+        <fieldset>
+          <legend>What product did you purches?</legend>
+          
+          <div class="sku">
+          <label
+            ><input type="radio" name="lev" value="CK" />Cal.King</label
+          >
+          <label
+            ><input type="radio" name="lev" value="K" />King</label
+          >
+          <label
+            ><input type="radio" name="lev" value="Q" />Queen</label
+          >
+          <label
+            ><input type="radio" name="lev" value="D" />Double/Full</label
+          >
+          <label
+            ><input type="radio" name="lev" value="T" />Twin</label
+          >
+          <label
+            ><input type="radio" name="lev" value="TL" />Twin Long</label
+          >
+        </div> <br>
+        <label>
+          <span class="spanLower">Registration ID:</span>
+          <input class="feild" type="text" name="PID" value="" placeholder="12 digit code"
+          required
+          pattern="[0-9a-z]{12}"
+          maxLength="12"
+        /></label>
+      </fieldset>
+
+        <fieldset>
+          <legend>Tell us about your mattress.</legend>
+          <label>
+            <span>How old is your mattress?</span>
+            <input class="feildCount" type="number" name="age" value=""
+          /> years old</label>
+          <span>What brand is it:</span>
+          <label
+            ><input type="checkbox" name="mattress" value="serta" />Serta</label
+          >
+          <label
+            ><input type="checkbox" name="mattress" value="tempur" />Tempur-Pedic</label
+          >
+          <label
+            ><input type="checkbox" name="mattress" value="sealy" />Sealy</label
+          >
+          <label
+            ><input type="checkbox" name="mattress" value="beauty" />Beautyrest</label
+          >
+          <label
+            ><input type="checkbox" name="mattress" value="other" />Other</label
+          >
+          <textarea class="verbose1" name="comments" maxLength="50" placeholder="comment here"></textarea>
+        </fieldset>
+
+        <!--Radio buttons-->
+
+        <fieldset>
+          <legend>How did you learn about Levant?</legend>
+          <label
+            ><input type="radio" name="source" value="TV" />TV comercial
+          </label>
+          <label
+            ><input type="radio" name="source" value="Radio" />Radio
+          </label>
+          <label
+            ><input type="radio" name="source" value="Mag" />Magazine
+          </label>
+          <label
+            ><input type="radio" name="source" value="web" />Online
+          </label>
+          <label
+            ><input type="radio" name="source" value="retail" />Retialer
+          </label>
+          <label
+            ><input type="radio" name="source" value="WOM" />Word of Mouth
+          </label>
+          <label
+            ><input  type="radio" name="source" value="oth" />Other
+          </label>
+          <textarea class="verbose1" name="comments" maxLength="50" placeholder="comment here"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Anything else you would like to tell us?</legend>
+  
+          <textarea class="verbose2" name="comments" maxLength="500" placeholder="comment here"></textarea>
+        <div>
+           <input class="sendButton" type="submit" name="send email" value="Submit"/>
+        </div>
+        </fieldset>
+
+        <!--Hidden Input-->
+        <input type="hidden" name="website1" value="americanzephyr" />
+        <input type="hidden" name="redirect" value="index.html" />
+      
+      </form>
+    </main>
+    <!--Start of footer-->
+    <footer>
+      <figure>
+        <img
+          class="footLogoStyle"
+          src="http://dmg2120.americanzephyr.net/images/Levant_sm.png"
+          alt="Levant Logo"
+        />
+        <figcaption class=tagLine>
+          <i><b>Rest Assured, on this Healthy Foundation</b></i>
+        </figcaption>
+      </figure>
+      <h3> &copy; 2020 &bull; DMG2120 Web Design &bull; Built by Roger Chamberalin </h3>
+    </footer>
+  </body>
+  
+  </html>

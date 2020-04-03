@@ -1,0 +1,202 @@
+/* style guide 
+Colors
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
+-Dropshadow- #F5E7DC75
+-Active state- #FAA16F
+-hyperlink- blue
+-Font family- 'Source Sans Pro' 
+*/
+
+/* css reset */
+
+body, h1, h2, h3, h4, h5, h6, dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
+}
+
+.hLink {
+  color: blue;
+}
+/*Header elements*/
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  border-bottom: 3px solid #3b0273;
+}
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+
+
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
+}
+
+.levantLogo {
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+    text-align: center;
+    color: #3b0273;
+    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  }
+  .levantLogo img {
+    width: 100%;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  }
+  .logoCap {
+    font-size: 90%;
+    padding-right: 10%;
+}
+
+/* Nav elements */
+#navbar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #64428c;
+  font-family: "Verdana";
+}
+.mynav {
+  display: flex;
+  list-style-type: none;
+  font-family: "Verdana";
+}
+
+.mynav a {
+  color: #f5e7dc;
+  font-weight: 500;
+  padding: 15px 1.3rem;
+  text-decoration: none;
+}
+.active a {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #aa8abd;
+  transition: 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #3b0273;
+  transition: color, 0.4s;
+}
+
+/* gallay */
+
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
+  border-top: 3px solid #64428c;   
+}
+
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+}
+
+.productList {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+
+.productList a {
+    list-style-type: none;
+}
+
+/* Images */
+.levantLogo {
+  font-size: 120%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  text-align: center;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+.levantLogo img {
+  width: 100%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+.logoCap {
+  font-size: 90%;
+  padding-right: 10%;
+}
+.matImage {
+  min-width: 400px;
+    border-radius: 10px 50px 0px 0px;
+    border: solid 3px #64428c;  
+    margin-top: 30px;
+   
+}
+
+figure {
+ text-align: center;
+}
+
+.blurb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #64428c;
+    font: 1rem "Verdana";
+    font-weight: bold;
+    background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
+    position: relative;
+    bottom: 10px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-radius: 0px 0px 90px 90px;
+    border: solid 3px #64428c; 
+}
+a.blurb {
+    text-decoration: none;
+}
+
+
+
+/* Footer Styling */
+
+footer {
+    background-color: #F5E7DC;
+    border-top: 3px solid #aa8abd;  
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    font-weight: 100;
+    background-color: #64428c;
+    color: #F5E7DC;
+    border-top: solid 3px #aa8abd;
+}
+figure {
+  text-align: center;
+}
+.footLogoStyle {
+max-width: 300px;
+padding-top: 20px;
+}
+.tagLine {
+    font-size: .80rem;
+  text-align: center;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
