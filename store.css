@@ -26,6 +26,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: #aa8abd;
+  background-image: url(images/airFlow.png);
+  background-repeat: no-repeat;
   border-bottom: 3px solid #3b0273;
 }
 h1 {
@@ -40,6 +42,10 @@ h1 {
 body {
   background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
   border-top: 3px solid #64428c;
+}
+
+#wrapper {
+  max-width: 900px; margin: 0 auto;
 }
 
 .levantLogo {
@@ -95,10 +101,8 @@ a:hover {
 }
 
 /* gallay */
-
-body {
-  background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
-  border-top: 3px solid #64428c;   
+.matSize {
+  margin: 0;
 }
 
 h1 {
@@ -111,7 +115,7 @@ h1 {
 
 .productList {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly ;
     flex-wrap: wrap;
 }

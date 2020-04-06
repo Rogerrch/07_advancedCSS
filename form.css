@@ -1,6 +1,6 @@
 /* style guide 
 Colors
--Principal colors- #F5E7DC, #aa8abd, #
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
 -Dropshadow- #F5E7DC75
 -Active state- #FAA16F
 -hyperlink- blue
@@ -28,6 +28,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: #aa8abd;
+  background-image: url(images/airFlow.png);
+  background-repeat: no-repeat;
   border-bottom: 3px solid #3b0273;
 }
 h1 {
@@ -44,6 +46,12 @@ figure {
 body {
   background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
   border-top: 3px solid #64428c;
+}
+
+#wrapper {
+
+  max-width: 900px; margin: 0 auto;
+  
 }
 
 .levantLogo {

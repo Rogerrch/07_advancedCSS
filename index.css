@@ -24,6 +24,16 @@ dl {
   color: #3b0273;
 }
 
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
+  border-top: 3px solid #64428c;
+}
+
+#wrapper {
+  max-width: 900px; margin: 0 auto;
+  min-width: 400px;
+}
+
 .hLink {
   color: blue;
 }
@@ -33,6 +43,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: #aa8abd;
+  background-image: url(images/airFlow.png);
+  background-repeat: no-repeat;
   border-bottom: 3px solid #3b0273;
 }
 
@@ -81,9 +93,7 @@ blockquote {
   color: #3b0273;
 }
 
-main {
-  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
-}
+
 
 h1 {
   color: #3b0273;
@@ -154,7 +164,8 @@ figure.bedMold img {
 }
 
 .example {
-  max-width: 500px;
+  margin: 0;
+  max-width: 400px;
   min-width: 200px;
   transition: ease-in 0.4s;
 }
@@ -213,10 +224,7 @@ blockquote {
   border: solid 3px #64428c;
 }
 
-body {
-  background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
-  border-top: 3px solid #64428c;
-}
+
 
 footer {
   background-color: #f5e7dc;
@@ -227,7 +235,6 @@ h2 {
   font-size: 12pt;
   font-weight: 100;
   padding-top: 20px;
-  background-color: #f5e7dc;
   color: #64428c;
 }
 h3 {
@@ -242,3 +249,4 @@ h3 {
 p {
   margin: 2rem;
 }
+
