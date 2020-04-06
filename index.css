@@ -30,7 +30,8 @@ body {
 }
 
 #wrapper {
-  max-width: 900px; margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
   min-width: 400px;
 }
 
@@ -55,9 +56,12 @@ header {
   justify-content: center;
   background-color: #64428c;
   font-family: "Verdana";
+  border-radius: 0rem 0rem 2rem 2rem;
 }
 .mynav {
+  padding: 0;
   display: flex;
+  flex-direction: row;
   list-style-type: none;
   font-family: "Verdana";
 }
@@ -93,8 +97,6 @@ blockquote {
   color: #3b0273;
 }
 
-
-
 h1 {
   color: #3b0273;
   text-align: center;
@@ -105,6 +107,7 @@ h1 {
 
 /* Images style*/
 .levantLogo {
+  margin: 14px;
   font-size: 120%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   text-align: center;
@@ -117,7 +120,7 @@ h1 {
 }
 .logoCap {
   font-size: 90%;
-  padding-right: 10%;
+  padding-right: 4%;
 }
 
 figure.bedMold {
@@ -134,8 +137,7 @@ figure.bedMold img {
   padding: 0;
   width: 100%;
   border-radius: 30px 30px 0px 0px;
-  border: solid 3px #64428c; 
-  
+  border: solid 3px #64428c;
 }
 
 .bedMoldText {
@@ -150,10 +152,9 @@ figure.bedMold img {
   padding-top: 15px;
   padding-bottom: 5px;
   border-radius: 0px 0px 30px 30px;
-  background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
-  border: solid 3px #64428c; 
+  background-image: linear-gradient(0deg, #faa16f80 0%, #f5e7dc 85%);
+  border: solid 3px #64428c;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
-  
 }
 
 .diagrams {
@@ -190,10 +191,9 @@ figure.bedMold img {
   height: 20px;
   padding-bottom: 20px;
   border-radius: 0px 0px 30px 30px;
-  background-color: #a182ab; 
+  background-color: #a182ab;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
   font-variant: small-caps;
-  
 }
 
 .physChar {
@@ -208,7 +208,7 @@ figure.bedMold img {
   height: 20px;
   padding-bottom: 20px;
   border-radius: 0px 0px 30px 30px;
-  background-color: #a182ab; 
+  background-color: #a182ab;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
   font-variant: small-caps;
 }
@@ -223,8 +223,6 @@ blockquote {
   border-radius: 20px;
   border: solid 3px #64428c;
 }
-
-
 
 footer {
   background-color: #f5e7dc;
@@ -249,4 +247,3 @@ h3 {
 p {
   margin: 2rem;
 }
-

@@ -70,9 +70,12 @@ body {
   justify-content: center;
   background-color: #64428c;
   font-family: "Verdana";
+  border-radius: 0rem 0rem 2rem 2rem;
 }
 .mynav {
+  padding: 0;
   display: flex;
+  flex-direction: row;
   list-style-type: none;
   font-family: "Verdana";
 }
@@ -126,6 +129,7 @@ h1 {
 
 /* Images */
 .levantLogo {
+  margin: 14px;
   font-size: 120%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   text-align: center;
@@ -138,7 +142,7 @@ h1 {
 }
 .logoCap {
   font-size: 90%;
-  padding-right: 10%;
+  padding-right: 4%;
 }
 .matImage {
   min-width: 400px;
