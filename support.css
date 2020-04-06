@@ -39,14 +39,16 @@ header {
   background-color: #aa8abd;
   background-image: url(images/airFlow.png);
   background-repeat: no-repeat;
-  border-bottom: 3px solid #3b0273;
+  border-bottom: 1px solid #3b0273;
 }
 h1 {
   color: #3b0273;
   text-align: center;
   margin-top: 2rem;
   font-size: 3rem;
-  font-family: "Source Sans Pro";
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 body {
@@ -59,7 +61,8 @@ body {
   margin: 0 auto;
   background-image: url(images/windTile4.png);
   background-repeat: repeat;
-  border-bottom: 3px solid #3b0273;
+  border-radius: 0rem 0rem 2rem 2rem;
+  border: solid 3px #3b0273;
 }
 
 .levantLogo {
@@ -88,8 +91,10 @@ figure {
   display: flex;
   justify-content: center;
   background-color: #64428c;
+  border-bottom: 1px solid #3b0273;
   font-family: "Verdana";
   border-radius: 0rem 0rem 2rem 2rem;
+  filter: drop-shadow(0 1.5mm 1mm #3b027370);
 }
 .mynav {
   padding: 0;
@@ -128,7 +133,7 @@ body {
   background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
   border-top: 3px solid #64428c;
 }
-
+/*feildsets */
 .nucleus {
   color: #3b0273;
   border: 2px solid #3b0273;
@@ -188,7 +193,9 @@ dd {
 /* Footer Styling */
 footer {
   background-color: #f5e7dc;
-  border-top: 3px solid #aa8abd;
+  border: 3px solid #aa8abd;
+  padding-bottom: 20px;
+  border-radius: 2rem 2rem 2rem 2rem;
 }
 
 h3 {
@@ -199,13 +206,17 @@ h3 {
   background-color: #64428c;
   color: #f5e7dc;
   border-top: solid 3px #aa8abd;
+  border-bottom: solid 3px #aa8abd;
 }
 figure {
   text-align: center;
+  
+  
 }
 .footLogoStyle {
   max-width: 300px;
   padding-top: 20px;
+  
 }
 .tagLine {
   font-size: 0.6rem;
