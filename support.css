@@ -140,7 +140,7 @@ body {
   border-radius: 0.5rem 2rem 2rem 2rem;
   padding: 1rem 2rem;
   margin: 2%;
-  background-image: linear-gradient(20deg, #64428c75 0%, #f5e7dc85 85%);
+  background-image: linear-gradient(20deg, #f5e7dc75 0%, #64428c85 85%);
   font-family: "Verdana";
   font-weight: bold;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
