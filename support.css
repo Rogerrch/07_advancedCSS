@@ -22,15 +22,6 @@ dl {
 .hLink {
   color: blue;
 }
-
-h1 {
-  color: #3b0273;
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 3rem;
-  font-family: "Source Sans Pro";
-}
-
 /*Header elements*/
 
 header {
@@ -42,13 +33,16 @@ header {
   border-bottom: 1px solid #3b0273;
 }
 h1 {
+  padding: 0;
+  margin: 0;
   color: #3b0273;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem;
   font-size: 3rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-style: italic;
+  filter: drop-shadow(.3mm 1mm .5mm #3b027390);
 }
 
 body {
