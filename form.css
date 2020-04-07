@@ -204,9 +204,9 @@ textarea.verbose1 {
 textarea.verbose2 {
   /* all: unset; */
   color: #3b0273;
-  width: 30%;
+  width: 100%;
   min-width: 180px;
-  height: 120px;
+  height: 128px;;
   font-size: 0.8rem;
   border-radius: 0.5rem;
   padding: 0.05rem 0.8rem;
@@ -214,7 +214,55 @@ textarea.verbose2 {
   border: solid 2px #aa8abd;
 }
 
+.feedback {
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+.comments {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .submit {
+  margin: 0;
+  padding: 0;
+  width: 110%;
+ }
+
+/* Send Button */
+.sendButton {
+  margin: .8rem 0 .8rem 0;
+  background-color: #3b0273;
+  width: 20%;
+  height: 30px;
+  min-width: 180px;
+  color: #f5e7dc;
+  border: none;
+  
+  border-radius: 0.5rem;
+  border: solid 2px #aa8abd;
+  font-family: "Verdana";
+  font-weight: bold;
+}
+.sendButton:active {
+  background-color: #faa16f;
+  color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.sendButton:hover {
+  background-color: #aa8abd;
+  color: #3b0273;
+  border: solid 2px #3b0273;
+}
+
 /* Footer Styling */
+
 footer {
   background-color: #f5e7dc;
   border: 3px solid #aa8abd;
@@ -232,10 +280,9 @@ h3 {
   border-top: solid 3px #aa8abd;
   border-bottom: solid 3px #aa8abd;
 }
-figure {
+
+.tagLine {
   text-align: center;
-  
-  
 }
 .footLogoStyle {
   max-width: 300px;
@@ -250,28 +297,3 @@ figure {
   filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
 }
 
-/* Send Button */
-.sendButton {
-  margin: .8rem .8rem .8rem 2.5rem;
-  background-color: #3b0273;
-  width: 20%;
-  min-width: 180px;
-  color: #f5e7dc;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  border: solid 2px #aa8abd;
-  font-family: "Verdana";
-  font-weight: bold;
-}
-.sendButton:active {
-  background-color: #faa16f;
-  color: #3b0273;
-  font-weight: 600;
-  transition: 0.4s;
-}
-.sendButton:hover {
-  background-color: #aa8abd;
-  color: #3b0273;
-  border: solid 2px #3b0273;
-  {
