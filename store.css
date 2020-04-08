@@ -98,7 +98,7 @@ body {
     margin: 0 .5rem .5rem .5rem;
     border-radius: 0.8rem;
     color: #f5e7dc;
-    font-weight: 500;
+    font-weight: bold;
     font-family: "Verdana";
     text-decoration: none;
     
@@ -115,10 +115,12 @@ body {
   #navbar a:hover {
     background-color: #aa8abd;
     transition: 0.2s;
-    font-weight: 500;
-    box-shadow: 2px -3px 3px #3b027395 inset;
-    text-shadow: 2px 1px 3px #f5e7dc;
+    font-weight: bold;
+    box-shadow: 1px -2px 2px #3b027395 inset;
+    text-shadow: 2px 1px 3px #3b0273;
+ 
   }
+
 }
 /* End Phone Nav */
 
@@ -172,7 +174,7 @@ body {
     font-weight: bold;
     border: solid 1px #3b0273;
     box-shadow: 2px -3px 3px #3b027395 inset;
-    text-shadow: 2px 1px 3px #f5e7dc;
+    text-shadow: 2px 1px 3px #3b0273;
   }
 }
 /*End Desktop Nav*/
