@@ -72,15 +72,19 @@ body {
   width: 100%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
+
 .logoCap {
-  font-size: 90%;
+  font-size: 60%;
   padding-right: 4%;
+  font-family: "Verdana";
+ padding-top: 2px;
 }
+
 figure {
   text-align: center;
 }
 /* Phone Nav rules */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   .headCase {
     background-color: #aa8abd;
@@ -138,7 +142,7 @@ figure {
 /* End Phone Nav */
 
 /* Desktop Nav rules */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
  
   .headCase {
     background-color: #aa8abd;

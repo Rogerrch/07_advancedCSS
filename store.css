@@ -60,13 +60,16 @@ body {
   width: 100%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
+
 .logoCap {
-  font-size: 90%;
-  padding-right: 10%;
+  font-size: 60%;
+  padding-right: 4%;
+  font-family: "Verdana";
+ padding-top: 2px;
 }
 
 /* Phone Nav rules */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   .headCase {
     background-color: #aa8abd;
@@ -124,7 +127,7 @@ body {
 /* End Phone Nav */
 
 /* Desktop Nav rules */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
  
   .headCase {
     background-color: #aa8abd;
@@ -226,7 +229,7 @@ h1 {
   width: 100%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
-.logoCap {
+.tagLine {
   font-size: 90%;
   padding-right: 4%;
 }
@@ -292,6 +295,7 @@ figure {
 }
 .tagLine {
   font-size: 0.6rem;
+  font-family: "Verdana";
   text-align: center;
   padding-bottom: 20px;
   color: #3b0273;
