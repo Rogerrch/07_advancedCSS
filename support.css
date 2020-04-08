@@ -46,6 +46,8 @@ h1 {
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-image: linear-gradient(0deg, #64428c 0%, #f5e7dc 85%);
   border-top: 3px solid #64428c;
 }
