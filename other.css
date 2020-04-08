@@ -1,0 +1,346 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
+}
+
+/*Header elements*/
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #aa8abd;
+  background-image: url(http://dmg2120.americanzephyr.net/images/airFlow.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin: 2rem;
+  font-size: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 2px 2px 3px #3b027390;
+}
+
+figure {
+  text-align: center;
+}
+
+body {
+    background-color: #64428c;
+    background-image: url(http://dmg2120.americanzephyr.net/images/grad02.gif);
+    background-repeat: repeat-x;
+}
+
+
+#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background-image: url(http://dmg2120.americanzephyr.net/images/windTile4.png);
+  background-repeat: repeat;
+  border-radius: 0rem 0rem 2rem 2rem;
+  border: solid 3px #3b0273;
+  box-shadow: 4px 4px 3px #3b027390;
+}
+
+.levantLogo {
+  margin: 14px;
+  font-size: 120%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  text-align: center;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+.levantLogo img {
+  width: 100%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+.logoCap {
+  font-size: 60%;
+  padding-right: 4%;
+  font-family: "Verdana";
+ padding-top: 2px;
+}
+/* Phone Nav rules */
+@media screen and (max-width: 600px) {
+
+    .headCase {
+      background-color: #aa8abd;
+      border-radius: 0rem 0rem 2rem 2rem;
+      filter: drop-shadow(0 4px 2px #3b027380); 
+    }
+  
+    #navbar {
+      background-color: #f5e7dc;
+      padding: 0.5rem 2%;
+      border-radius: 2rem 2rem 2rem 2rem;
+      border: solid 3px #3b0273;
+      box-shadow: 4px 3px 5px #3b027395 inset;
+    }
+  
+   .mynav {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+   .mynav a {
+      border: solid 2px #aa8abd;
+      display: block;
+      padding: 0.5rem 5%;
+      background-color: #64428c;
+      margin: 0 .5rem .5rem .5rem;
+      border-radius: 0.8rem;
+      color: #f5e7dc;
+      font-weight: bold;
+      font-family: "Verdana";
+      text-decoration: none;
+      
+    }
+    .active a {
+      background-color: #faa16f;
+      color: #3b0273;
+      font-weight: 600;
+      transition: 0.1s;
+      box-shadow: 2px 3px 3px #3b0273 inset;
+      text-shadow: 2px 1px 3px #f5e7dc;
+    }
+  
+    #navbar a:hover {
+      background-color: #aa8abd;
+      transition: 0.2s;
+      font-weight: bold;
+      box-shadow: 1px -2px 2px #3b027395 inset;
+      text-shadow: 2px 1px 3px #3b0273;
+   
+    }
+  
+  }
+  /* End Phone Nav */
+  
+  /* Desktop Nav rules */
+  @media screen and (min-width: 601px) {
+   
+    .headCase {
+      background-color: #aa8abd;
+      border-radius: 0rem 0rem 2rem 2rem;
+    }
+   
+    #navbar {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #64428c;
+      border: 1px solid #3b0273;
+      font-family: "Verdana";
+      border-radius: 2rem 2rem 2rem 2rem;
+      filter: drop-shadow(0 4px 2px #3b027380);
+      box-shadow: -2px -4px 3px #3b027390 inset;
+    }
+  
+    .mynav {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      font-family: "Verdana";
+    }
+  
+    .mynav a {
+      color: #f5e7dc;
+      font-weight: bold;
+      padding: 15px 1.3rem;
+      text-decoration: none;
+    }
+    .active a {
+      background-color: #faa16f;
+      color: #3b0273;
+      font-weight: 600;
+      transition: 0.4s;
+      border: solid 2px #3b0273;
+      box-shadow: 2px 3px 3px #3b027395 inset;
+      text-shadow: 2px 1px 3px #f5e7dc;
+    }
+  
+    #navbar a:hover {
+      background-color: #aa8abd;
+      transition: 0.2s;
+      font-weight: bold;
+      border: solid 1px #3b0273;
+      box-shadow: 2px -3px 3px #3b027395 inset;
+      text-shadow: 2px 1px 3px #3b0273;
+    }
+  }
+  /*End Desktop Nav*/
+  
+  /*feildset elements*/
+
+
+
+  form.userInfo fieldset.lgPat {
+    color: #3b0273;
+    border: 2px solid #3b0273;
+    border-radius: 0.5rem 2rem 2rem 2rem;
+    padding: 1rem 2rem;
+    margin: 2%;
+    background-color: #aa8abd;
+    box-shadow: 
+     -0px -40px 60px #3b027398 inset;
+    background-image: url(http://dmg2120.americanzephyr.net/images/pat02.png);
+    background-repeat: repeat;
+    font-family: "Verdana";
+    font-weight: bold;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  } 
+
+  form.userInfo fieldset.smPat {
+    color: #3b0273;
+    border: 2px solid #3b0273;
+    border-radius: 0.5rem 2rem 2rem 2rem;
+    padding: 1rem 2rem;
+    margin: 2%;
+    background-color: #aa8abd;
+    box-shadow: 
+     -0px -40px 60px #3b027398 inset;
+  background-image: url(http://dmg2120.americanzephyr.net/images/pat01.png);
+  background-repeat: repeat;
+    font-family: "Verdana";
+    font-weight: bold;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  } 
+  main ul.gust li {
+    background-image: url(http://dmg2120.americanzephyr.net/images/bull_xsm.png);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 40px;
+    margin-bottom: 0.8rem;
+  }
+  
+  form.userInfo legend {
+    font-family: "Verdana";
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f5e7dc;
+    background-color: #3b0273;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: solid 2px #ebae8b;
+  }
+  
+  form.userInfo label {
+    display: block;
+  }
+  
+  form.userInfo span {
+    display: block;
+  }
+  
+  #state {
+    margin-bottom: 0.5rem;
+    background-color: #f5e7dc;
+    width: 32.2%;
+    min-width: 200px;
+    color: #3b0273;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 2px #aa8abd;
+  }
+  
+  form.userInfo .feild {
+    margin-bottom: 0.5rem;
+    background-color: #f5e7dc;
+    width: 30%;
+    min-width: 180px;
+    color: #3b0273;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 2px #aa8abd;
+  }
+  
+  form.userInfo .feildCount {
+    margin-bottom: 0.5rem;
+    max-width: 2rem;
+    background-color: #f5e7dc;
+    color: #3b0273;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 2px #aa8abd;
+  }
+  
+  h4 {
+    padding-left: 6%;
+    font-family: "Verdana";
+    font-size: 0.5em;
+  }
+
+  /* Footer Styling */
+
+#bedPic {
+    background-image: url(http://dmg2120.americanzephyr.net/images/footboard.jpg);
+    border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
+  }
+  
+  .bedfade {
+    background-color: #f5e7dc95;
+    border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
+    box-shadow: 
+   -30px -30px 30px #f5e7dc inset,
+    30px -30px 30px #f5e7dc inset,
+    -30px 30px 30px #f5e7dc inset,
+     30px 30px 30px #f5e7dc inset;
+  }
+  footer {
+    border: 3px solid #aa8abd;
+    padding-bottom: 20px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 
+   -2px -2px 3px #3b0273 inset,
+   2px -2px 3px #3b0273 inset,
+    -2px 2px 3px #3b0273 inset,
+    2px 2px 3px #3b0273 inset;
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    font-weight: 100;
+    background-color: #64428c;
+    color: #f5e7dc;
+    border-top: solid 3px #aa8abd;
+    border-bottom: solid 3px #aa8abd;
+    box-shadow: 2px 2px 3px #3b027390 inset;
+  }
+  
+  
+  .footLogoStyle {
+    max-width: 300px;
+    padding-top: 20px;
+    filter: drop-shadow(0 4px 2px #f5e7dc);
+  }
+  .tagLine {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 3px 24px 20px 0;
+    color: #3b0273;
+    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+    text-shadow: 
+    -1px -1px 2px #f5e7dc,
+    1px -1px 2px #f5e7dc,
+     -1px 1px 2px #f5e7dc,
+     1px 1px 2px #f5e7dc;
+  }
