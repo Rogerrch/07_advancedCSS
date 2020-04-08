@@ -338,12 +338,12 @@ p {
 
 #bedPic {
   background-image: url(/images/footboard.jpg);
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
 }
 
 .fade01 {
   background-color: #f5e7dc95;
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
   box-shadow: 
  -30px -30px 30px #f5e7dc inset,
   30px -30px 30px #f5e7dc inset,
