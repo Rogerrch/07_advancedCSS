@@ -115,7 +115,7 @@ body {
   #navbar a:hover {
     background-color: #aa8abd;
     transition: 0.4s;
-    font-weight: 600;
+    font-weight: 500;
     box-shadow: 2px -3px 3px #3b027395 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
   }
@@ -156,7 +156,7 @@ body {
 
   .mynav a {
     color: #f5e7dc;
-    font-weight: 500;
+    font-weight: bold;
     padding: 15px 1.3rem;
     text-decoration: none;
   }
@@ -173,7 +173,7 @@ body {
   #navbar a:hover {
     background-color: #aa8abd;
     transition: 0.4s;
-    font-weight: 600;
+    font-weight: bold;
     border: solid 1px #3b0273;
     box-shadow: 2px -3px 3px #3b027395 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
@@ -263,11 +263,30 @@ a.blurb {
 }
 
 /* Footer Styling */
+
+#bedPic {
+  background-image: url(http://dmg2120.americanzephyr.net/images/footboard.jpg);
+  border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
+}
+
+.bedfade {
+  background-color: #f5e7dc95;
+  border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
+  box-shadow: 
+ -30px -30px 30px #f5e7dc inset,
+  30px -30px 30px #f5e7dc inset,
+  -30px 30px 30px #f5e7dc inset,
+   30px 30px 30px #f5e7dc inset;
+}
 footer {
-  background-color: #f5e7dc;
   border: 3px solid #aa8abd;
   padding-bottom: 20px;
   border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 
+ -2px -2px 3px #3b0273 inset,
+ 2px -2px 3px #3b0273 inset,
+  -2px 2px 3px #3b0273 inset,
+  2px 2px 3px #3b0273 inset;
 }
 
 h3 {
@@ -282,21 +301,22 @@ h3 {
   box-shadow: 2px 2px 3px #3b027390 inset;
 }
 
-figure {
-  text-align: center;
-  
-  
-}
+
 .footLogoStyle {
   max-width: 300px;
   padding-top: 20px;
-  
+  filter: drop-shadow(0 4px 2px #f5e7dc);
 }
 .tagLine {
-  font-size: 0.6rem;
-  font-family: "Verdana";
+  font-size: 0.7rem;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 3px 24px 20px 0;
   color: #3b0273;
   filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  text-shadow: 
+  -1px -1px 2px #f5e7dc,
+  1px -1px 2px #f5e7dc,
+   -1px 1px 2px #f5e7dc,
+   1px 1px 2px #f5e7dc;
 }
+
