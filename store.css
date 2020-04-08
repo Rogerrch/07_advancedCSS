@@ -107,21 +107,17 @@ body {
     background-color: #faa16f;
     color: #3b0273;
     font-weight: 600;
-    transition: 0.4s;
+    transition: 0.1s;
     box-shadow: 2px 3px 3px #3b0273 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
   }
 
   #navbar a:hover {
     background-color: #aa8abd;
-    transition: 0.4s;
+    transition: 0.2s;
     font-weight: 500;
     box-shadow: 2px -3px 3px #3b027395 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
-  }
-  a:hover {
-    color: #3b0273;
-    transition: color, 0.4s;
   }
 }
 /* End Phone Nav */
@@ -172,15 +168,11 @@ body {
 
   #navbar a:hover {
     background-color: #aa8abd;
-    transition: 0.4s;
+    transition: 0.2s;
     font-weight: bold;
     border: solid 1px #3b0273;
     box-shadow: 2px -3px 3px #3b027395 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
-  }
-  a:hover {
-    color: #3b0273;
-    transition: color, 0.4s;
   }
 }
 /*End Desktop Nav*/
