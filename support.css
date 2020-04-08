@@ -189,7 +189,7 @@ figure {
     background-color: #aa8abd;
     transition: 0.4s;
     font-weight: 600;
-    border: solid px #3b0273;
+    border: solid 1px #3b0273;
     box-shadow: 2px -3px 3px #3b027395 inset;
     text-shadow: 2px 1px 3px #f5e7dc;
   }
