@@ -40,7 +40,7 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-style: italic;
-  filter: drop-shadow(.3mm 1mm .5mm #3b027390);
+  text-shadow: 2px 2px 3px #3b027390;
 }
 
 figure {
@@ -58,6 +58,7 @@ body {
   background-repeat: repeat;
   border-radius: 0rem 0rem 2rem 2rem;
   border: solid 3px #3b0273;
+  box-shadow: 4px 4px 3px #3b027390;
 }
 
 .levantLogo {
@@ -73,8 +74,10 @@ body {
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
 .logoCap {
-  font-size: 90%;
+  font-size: 60%;
   padding-right: 4%;
+  font-family: "Verdana";
+ padding-top: 2px;
 }
 /* Nav elements */
 #navbar {
@@ -86,7 +89,9 @@ body {
   font-family: "Verdana";
   border-radius: 0rem 0rem 2rem 2rem;
   filter: drop-shadow(0 1.5mm 1mm #3b027370);
+  box-shadow: 2px 3px 3px #3b027390 inset;
 }
+
 .mynav {
   padding: 0;
   display: flex;
@@ -140,6 +145,7 @@ form.userInfo legend {
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   border: solid 2px #ebae8b;
+  
 }
 
 form.userInfo label {
@@ -149,6 +155,7 @@ form.userInfo label {
 form.userInfo span {
   display: block;
 }
+
 
 #state {
   margin-bottom: 0.5rem;
@@ -182,7 +189,10 @@ form.userInfo .feildCount {
   border: none;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  border: solid 2px #aa8abd;
 }
+
+.matAge 
 
 h4 {
   padding-left: 6%;
@@ -244,7 +254,6 @@ textarea.verbose2 {
   min-width: 180px;
   color: #f5e7dc;
   border: none;
-  
   border-radius: 0.5rem;
   border: solid 2px #aa8abd;
   font-family: "Verdana";
@@ -280,6 +289,7 @@ h3 {
   color: #f5e7dc;
   border-top: solid 3px #aa8abd;
   border-bottom: solid 3px #aa8abd;
+  box-shadow: 2px 2px 3px #3b027390 inset;
 }
 
 .tagLine {

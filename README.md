@@ -1,5 +1,5 @@
 "# americanzephyr" 
-# 05_images
+# 07_AdvancedCSS
 
 /* style guide 
 Colors

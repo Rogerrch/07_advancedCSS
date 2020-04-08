@@ -36,6 +36,7 @@ body {
   background-repeat: repeat;
   border-radius: 0rem 0rem 2rem 2rem;
   border: solid 3px #3b0273;
+  box-shadow: 4px 4px 3px #3b027390;
 }
 
 .hLink {
@@ -62,7 +63,9 @@ header {
   font-family: "Verdana";
   border-radius: 0rem 0rem 2rem 2rem;
   filter: drop-shadow(0 1.5mm 1mm #3b027370);
+  box-shadow: 2px 3px 3px #3b027390 inset;
 }
+
 .mynav {
   padding: 0;
   display: flex;
@@ -112,7 +115,7 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-style: italic;
-  filter: drop-shadow(.3mm 1mm .5mm #3b027390);
+  text-shadow: 2px 2px 3px #3b027390;
 }
 
 /* Images style*/
@@ -264,4 +267,5 @@ h3 {
   color: #f5e7dc;
   border-top: solid 3px #aa8abd;
   border-bottom: solid 3px #aa8abd;
+  box-shadow: 2px 2px 3px #3b027390 inset;
 }
