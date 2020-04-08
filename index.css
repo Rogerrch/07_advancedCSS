@@ -312,15 +312,22 @@ blockquote {
   background-color: #aa8abd;
   border-radius: 20px;
   border: solid 3px #64428c;
+  box-shadow: 2px 5px 5px #3b0273;
+  
 }
 
 
 h2 {
   text-align: center;
   font-size: 12pt;
-  font-weight: 100;
+  font-weight: bolder;
   padding-top: 20px;
-  color: #64428c;
+  color: #3b0273;
+  text-shadow:
+   -1px -1px 2px #f5e7dc70,  
+    1px -1px 2px #f5e7dc70,
+    -1px 1px 2px #f5e7dc70,
+     1px 1px 2px #f5e7dc70;
 }
 
 p {
@@ -328,12 +335,35 @@ p {
   font-family: "Verdana";
 }
 /* Footer Styling */
+
+#bedPic {
+  background-image: url(/images/airFlow02.png);
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.fade01 {
+  background-color: #f5e7dc95;
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 
+ -30px -30px 30px #f5e7dc inset,
+  30px -30px 30px #f5e7dc inset,
+  -30px 30px 30px #f5e7dc inset,
+   30px 30px 30px #f5e7dc inset;
+}
 footer {
-  background-color: #f5e7dc;
+  
   border: 3px solid #aa8abd;
   padding-bottom: 20px;
   border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 
+ -2px -2px 3px #3b0273 inset,
+ 2px -2px 3px #3b0273 inset,
+  -2px 2px 3px #3b0273 inset,
+  2px 2px 3px #3b0273 inset;
 }
+
+
+
 
 h3 {
   display: flex;
@@ -345,4 +375,5 @@ h3 {
   border-top: solid 3px #aa8abd;
   border-bottom: solid 3px #aa8abd;
   box-shadow: 2px 2px 3px #3b027390 inset;
+  
 }
